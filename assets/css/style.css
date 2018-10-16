@@ -1058,7 +1058,7 @@ main.main {
       main.main .main-visual .visual.slick-active.visual2 .visual-text .v-icon-img .v-icon6 {
         animation: fadeInUp 0.8s both 2.8s; }
       main.main .main-visual .visual.slick-active.visual2 .visual-text .v-icon-img .v-icon7 {
-        animation: fadeInUp 0.8s both 3.4s; }
+        animation: fadeInUp 0.8s both 3.2s; }
     main.main .main-visual .slick-dots {
       position: absolute;
       bottom: 30%;
@@ -1953,9 +1953,10 @@ footer.footer {
         margin-top: 20px; } }
 .history .btom-content {
   background: url("../../assets/img/bg.png");
-  height: 300px; }
+  height: 300px;
+  text-align: center;
+  margin-bottom: -2px; }
   .history .btom-content .root_daum_roughmap {
-    margin: 0 auto;
     width: 100%; }
   .history .btom-content .wrap_controllers {
     display: none; }
