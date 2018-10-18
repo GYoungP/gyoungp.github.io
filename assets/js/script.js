@@ -61,6 +61,7 @@ var Portfolio = {
         const visual = $('.visual');
         const mainVisual= $('.main-visual');
         const self = $(this);
+        const aboutMeOft = $('.about-me').offset().top;
 
         $('.main-visual').slick({
             dots: true,
@@ -72,6 +73,8 @@ var Portfolio = {
             autoplay:true,
             autoplayspeed: 1000
         });
+
+
 
 
 

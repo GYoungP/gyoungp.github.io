@@ -116,19 +116,6 @@ main.main {
       }
     }
 
-    @include screen-md {
-      .main-visual-text {
-        p {
-          font-size: 3.9vw;
-        }
-        h1 {
-          font-size: 5.5vw;
-        }
-        .en {
-          font-size: 1.8vw;
-        }
-      }
-    }
   }
   .main-visual {
     position: relative;
@@ -226,6 +213,26 @@ main.main {
                 text-transform: uppercase;
                 color: #ffffff;
                 margin-top: 16px;
+              }
+            }
+
+            @include screen-md {
+              .v-icon {
+                margin: 0 2vw;
+                .img {
+                  i {
+                    font-size: 7vw;
+                    width: 6.5vw;
+                    height: 6.5vw;
+                  }
+                  img {
+                    width: 6.5vw;
+                    height: 6.5vw;
+                  }
+                }
+                p {
+                  font-size: 1.5vw;
+                }
               }
             }
           }
@@ -347,6 +354,29 @@ main.main {
       100% {
         opacity: 0;
         transform: translateX(-100%)
+      }
+    }
+
+    @include screen-md {
+      .visual {
+        .visual-text {
+          .top-text {
+            font-size: 2vw;
+          }
+          h1 {
+            font-size: 3.2vw;
+          }
+          .en {
+            font-size: 1.2vw;
+          }
+        }
+        &.visual3 {
+          .visual-text {
+            .top-text {
+              font-size: 2vw;
+            }
+          }
+        }
       }
     }
   }
