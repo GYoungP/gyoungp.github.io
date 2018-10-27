@@ -96,7 +96,7 @@ var Portfolio = {
                 var self = $(this),
                     mainSectionOft = self.offset().top;
 
-                if (sct > mainSectionOft - 200) {
+                if (sct > mainSectionOft - 100) {
                     self.addClass('is-active').siblings().removeClass('is-active');
                 }
             });
