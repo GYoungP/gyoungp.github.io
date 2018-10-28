@@ -162,6 +162,8 @@
           .text3 {
             margin-left: 240px;
             width: 345px;
+            position: relative;
+            z-index: 10;
             .line {
               background: #ffc90a;
             }
