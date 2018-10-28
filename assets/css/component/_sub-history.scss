@@ -5,6 +5,9 @@
     font-weight: 400;
     text-transform: uppercase;
   }
+  strong {
+    font-weight: 600;
+  }
   .top-visual {
     height: 550px;
     position: relative;
@@ -136,7 +139,7 @@
         overflow-x: auto;
         .history-con {
           width: 1350px;
-          height: 270px;
+          height: 295px;
         }
         .top-text {
           margin-top: 40px;
@@ -144,20 +147,21 @@
             margin-right: 20px;
           }
           .text {
+            word-break: keep-all;
             float: left;
-            margin-left: 30px;
-            width: 175px;
+            margin-left: 27px;
+            width: 340px;
           }
           .text2 {
-            margin-left: 218px;
-            width: 180px;
+            margin-left: 111px;
+            width: 280px;
             .line {
               background: #8ec9cd;
             }
           }
           .text3 {
-            margin-left: 200px;
-            width: 275px;
+            margin-left: 240px;
+            width: 345px;
             .line {
               background: #ffc90a;
             }
@@ -167,21 +171,21 @@
           margin-top: -39px;
           .text {
             display: inline-block;
-            width: 175px;
-            margin-left: 55px;
+            width: 205px;
+            margin-left: 140px;
           }
           .text-group {
             float: left;
             text-align: right;
-            margin-top: 35px;
+            margin-top: 55px;
           }
           .line {
             margin-left: 20px;
             background: #8fcca2;
           }
           .text5 {
-            margin-left: 243px;
-            width: 205px;
+            margin-left: 176px;
+            width: 345px;
             .line {
               background: #6f7b93;
             }
@@ -199,7 +203,7 @@
           display: inline-block;
           width: 2px;
           background: #ec6d5e;
-          height: 115px;
+          height: 135px;
         }
         .day {
           font-size: 16px;

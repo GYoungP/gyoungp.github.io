@@ -1765,6 +1765,8 @@ footer.footer {
   font-size: 32px;
   font-weight: 400;
   text-transform: uppercase; }
+.history strong {
+  font-weight: 600; }
 .history .top-visual {
   height: 550px;
   position: relative; }
@@ -1876,41 +1878,42 @@ footer.footer {
       overflow-x: auto; }
       .history .main-content .history .history-content .history-con {
         width: 1350px;
-        height: 270px; }
+        height: 295px; }
       .history .main-content .history .history-content .top-text {
         margin-top: 40px; }
         .history .main-content .history .history-content .top-text .line {
           margin-right: 20px; }
         .history .main-content .history .history-content .top-text .text {
+          word-break: keep-all;
           float: left;
-          margin-left: 30px;
-          width: 175px; }
+          margin-left: 27px;
+          width: 340px; }
         .history .main-content .history .history-content .top-text .text2 {
-          margin-left: 218px;
-          width: 180px; }
+          margin-left: 111px;
+          width: 280px; }
           .history .main-content .history .history-content .top-text .text2 .line {
             background: #8ec9cd; }
         .history .main-content .history .history-content .top-text .text3 {
-          margin-left: 200px;
-          width: 275px; }
+          margin-left: 240px;
+          width: 345px; }
           .history .main-content .history .history-content .top-text .text3 .line {
             background: #ffc90a; }
       .history .main-content .history .history-content .btom-text {
         margin-top: -39px; }
         .history .main-content .history .history-content .btom-text .text {
           display: inline-block;
-          width: 175px;
-          margin-left: 55px; }
+          width: 205px;
+          margin-left: 140px; }
         .history .main-content .history .history-content .btom-text .text-group {
           float: left;
           text-align: right;
-          margin-top: 35px; }
+          margin-top: 55px; }
         .history .main-content .history .history-content .btom-text .line {
           margin-left: 20px;
           background: #8fcca2; }
         .history .main-content .history .history-content .btom-text .text5 {
-          margin-left: 243px;
-          width: 205px; }
+          margin-left: 176px;
+          width: 345px; }
           .history .main-content .history .history-content .btom-text .text5 .line {
             background: #6f7b93; }
         .history .main-content .history .history-content .btom-text .text6 {
@@ -1923,7 +1926,7 @@ footer.footer {
         display: inline-block;
         width: 2px;
         background: #ec6d5e;
-        height: 115px; }
+        height: 135px; }
       .history .main-content .history .history-content .day {
         font-size: 16px;
         color: #ec6d5e;
