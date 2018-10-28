@@ -1974,7 +1974,7 @@ footer.footer {
   text-align: center;
   margin-bottom: -2px; }
   .history .btom-content .root_daum_roughmap {
-    width: 100%; }
+    width: 100vw; }
   .history .btom-content .wrap_controllers {
     display: none; }
 
